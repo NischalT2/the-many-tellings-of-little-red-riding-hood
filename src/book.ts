@@ -98,7 +98,7 @@ export const pageMarginalia: Record<number, string[]> = {
     "the question is phrased differently elsewhere",
   ],
   4: [
-    "the destination is sometimes concealed",
+    "the destination is not revealed sometimes",
     "the girl speaks more cautiously in some tellings",
   ],
   5: [
