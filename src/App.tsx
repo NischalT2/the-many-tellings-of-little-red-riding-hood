@@ -531,9 +531,9 @@ export default function App() {
       </div>
 
       <p className="mt-3 text-xs italic text-stone-500">
-        {mode === "oral"
-          ? `Telling ${versions}`
-          : `${versions} ${versions === 1 ? "version" : "versions"} generated`}
+      {mode === "oral" && `Recital ${versions}`}
+      {mode === "scribal" && `Version ${versions}`}
+      {mode === "print" && "Edition I"}
       </p>
     </div>
   );
